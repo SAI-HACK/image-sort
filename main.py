@@ -10,14 +10,14 @@ from kivy.uix.button import Button
 from kivy.uix.label import Label
 from kivy.uix.popup import Popup
 
-# ---- Globals ----
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# Load labels
+#Load labels
 with open("imagesort_labels.json", "r") as f:
     class_names = json.load(f)
 
-# ---- Load TorchScript model ----
+#Loading TorchScript model
 MODEL_PATH = "imagesort_shufflenetv2.pt"
 print(f"Loading TorchScript model from {MODEL_PATH} ...")
 
@@ -25,7 +25,7 @@ model = torch.jit.load(MODEL_PATH, map_location=device)
 model.to(device)
 model.eval()
 
-# ---- Image transforms ----
+#Image transformations
 transform = transforms.Compose([
     transforms.Resize((224, 224)),
     transforms.ToTensor(),
@@ -33,9 +33,9 @@ transform = transforms.Compose([
                          [0.229, 0.224, 0.225])
 ])
 
-# ---- Sorting Function ----
+#Sorting
 def sort_whatsapp_images():
-    # Possible source folders
+    #Source folders path
     possible_src = [
         os.path.expanduser("/mnt/c/whatsappp"),  # fallback for PC testing
         "/storage/emulated/0/WhatsApp/Media/WhatsApp Images",  # Android path
@@ -83,7 +83,7 @@ def sort_whatsapp_images():
 
     return True
 
-# ---- Kivy UI ----
+#Kivy UI
 class MainScreen(BoxLayout):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -118,3 +118,4 @@ class ImageSortApp(App):
 
 if __name__ == "__main__":
     ImageSortApp().run()
+
