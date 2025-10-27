@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/<your-username>/IMAGE-SORT/stargazers"><img src="https://img.shields.io/github/stars/<your-username>/IMAGE-SORT?color=yellow&style=for-the-badge"></a>
-  <a href="https://github.com/<your-username>/IMAGE-SORT/issues"><img src="https://img.shields.io/github/issues/<your-username>/IMAGE-SORT?style=for-the-badge"></a>
+  <a href="https://github.com/SAI-HACK/IMAGE-SORT/stargazers"><img src="https://img.shields.io/github/stars/<your-username>/IMAGE-SORT?color=yellow&style=for-the-badge"></a>
+  <a href="https://github.com/SAI-HACK/IMAGE-SORT/issues"><img src="https://img.shields.io/github/issues/<your-username>/IMAGE-SORT?style=for-the-badge"></a>
   <a href="https://github.com/<your-username>/IMAGE-SORT"><img src="https://img.shields.io/github/license/<your-username>/IMAGE-SORT?color=blue&style=for-the-badge"></a>
   <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge&logo=python"></a>
 </p>
@@ -55,12 +55,19 @@ Designed to handle large image collections, this project helps you:
 ## 🧩 Folder Structure
 
 IMAGE SORT/
+
 │
+
 ├── intellisort_shufflenetv2.pt # Pre-trained TorchScript model
+
 ├── docrm.py # Main Python script
+
 ├── input_images/ # Folder for unsorted images
+
 ├── sorted_images/ # Output folder (auto-generated)
+
 ├── requirements.txt # Project dependencies
+
 └── README.md # This documentation
 
 
@@ -74,7 +81,7 @@ IMAGE SORT/
 ```bash
 # Clone the repo
 git clone https://github.com/SAI-HACK/image-sort.git
-cd image-sort
+cd image-sort 
 
 # Create and activate virtual environment
 python3 -m venv venv
@@ -84,7 +91,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Run the application
-python3 docrm.py
+python3 main.py
 
 
 
