@@ -54,6 +54,16 @@ Designed to handle large image collections, this project helps you:
 
 ## 🧩 Folder Structure
 
+IMAGE SORT/
+│
+├── intellisort_shufflenetv2.pt # Pre-trained TorchScript model
+├── docrm.py # Main Python script
+├── input_images/ # Folder for unsorted images
+├── sorted_images/ # Output folder (auto-generated)
+├── requirements.txt # Project dependencies
+└── README.md # This documentation
+
+
 
 ---
 
@@ -63,8 +73,8 @@ Designed to handle large image collections, this project helps you:
 
 ```bash
 # Clone the repo
-git clone https://github.com/<your-username>/IMAGE-SORT.git
-cd IMAGE-SORT
+git clone https://github.com/SAI-HACK/image-sort.git
+cd image-sort
 
 # Create and activate virtual environment
 python3 -m venv venv
@@ -76,4 +86,11 @@ pip install -r requirements.txt
 # Run the application
 python3 docrm.py
 
+
+
+Loading TorchScript model from imagesort_shufflenetv2.pt ...
+✅ Processed: dog.jpg → Animals/
+✅ Processed: car.png → Vehicles/
+✅ Processed: flower.jpeg → Nature/
+🎉 Sorting Completed Successfully!
 
