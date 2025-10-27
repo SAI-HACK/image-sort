@@ -54,3 +54,26 @@ Designed to handle large image collections, this project helps you:
 
 ## 🧩 Folder Structure
 
+
+---
+
+## ⚙️ Installation
+
+> 🧠 *It’s recommended to use a virtual environment for isolation.*
+
+```bash
+# Clone the repo
+git clone https://github.com/<your-username>/IMAGE-SORT.git
+cd IMAGE-SORT
+
+# Create and activate virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+python3 docrm.py
+
+
