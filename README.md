@@ -53,11 +53,11 @@ Designed to handle large image collections, this project helps you:
 
 | Category          | Hugging Face Dataset                       |
 | ----------------- | ------------------------------------------ |
-| 🧍 People         | `schirrmacher/humans`                      |
-| 😂 Memes          | `poloclub/diffusiondb`                     |
+| 🧍 People         | `schirrmacher/humans` `FacePerceiver/laion-face`                       |
+| 😂 Memes          | `not-lain/meme-dataset` `sin3142/memes-500`                    |
 | 📄 Documents      | `nielsr/funsd`                             |
 | ✍️ Handwritten    | `agomberto/FrenchCensus-handwritten-texts` |
-| 📢 Advertisements | `multimodalart/ads-dataset`                |
+| 📢 Advertisements | `PeterBrendan/AdImageNet` `multimodalart/vintage-ads`                |
 | 💻 Digital Notes  | `HuggingFaceM4/DocumentVQA`                |
 
 
