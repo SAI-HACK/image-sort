@@ -9,10 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/SAI-HACK/IMAGE-SORT/stargazers"><img src="https://img.shields.io/github/stars/<your-username>/IMAGE-SORT?color=yellow&style=for-the-badge"></a>
-  <a href="https://github.com/SAI-HACK/IMAGE-SORT/issues"><img src="https://img.shields.io/github/issues/<your-username>/IMAGE-SORT?style=for-the-badge"></a>
-  <a href="https://github.com/<your-username>/IMAGE-SORT"><img src="https://img.shields.io/github/license/<your-username>/IMAGE-SORT?color=blue&style=for-the-badge"></a>
-  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge&logo=python"></a>
+  
 </p>
 
 ---
