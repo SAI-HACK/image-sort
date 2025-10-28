@@ -79,6 +79,7 @@ IMAGE SORT/
 
 └── README.md 
 
+(Make sure all the files are present in the same folder)
 
 
 ---
@@ -87,17 +88,22 @@ IMAGE SORT/
 
 > 🧠 *It’s recommended to use a virtual environment for isolation.*
 
-```bash
+```python
 # Clone the repo
 git clone https://github.com/SAI-HACK/image-sort.git
 cd image-sort 
-
+```
 # Create and activate virtual environment
+```python
 python3 -m venv venv
 source venv/bin/activate
-
+```
 # Install dependencies
+```python
 pip install -r requirements.txt
+```
 
 # Run the application
+```python
 python3 main.py
+```
