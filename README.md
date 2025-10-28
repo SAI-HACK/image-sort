@@ -52,6 +52,17 @@ Designed to handle large image collections, this project helps you:
 
 ---
 
+| Category          | Hugging Face Dataset                       |
+| ----------------- | ------------------------------------------ |
+| 🧍 People         | `schirrmacher/humans`                      |
+| 😂 Memes          | `poloclub/diffusiondb`                     |
+| 📄 Documents      | `nielsr/funsd`                             |
+| ✍️ Handwritten    | `agomberto/FrenchCensus-handwritten-texts` |
+| 📢 Advertisements | `multimodalart/ads-dataset`                |
+| 💻 Digital Notes  | `HuggingFaceM4/DocumentVQA`                |
+
+
+
 ## 🧩 Folder Structure
 
 IMAGE SORT/
