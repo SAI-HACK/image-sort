@@ -37,7 +37,7 @@ transform = transforms.Compose([
 def sort_whatsapp_images():
     #Source folders path
     possible_src = [
-        os.path.expanduser("/mnt/c/whatsappp"),  # fallback for PC testing
+        os.path.expanduser("/your_source_folder_goes_here"),  # fallback for PC testing
         "/storage/emulated/0/WhatsApp/Media/WhatsApp Images",  # Android path
     ]
 
@@ -118,4 +118,5 @@ class ImageSortApp(App):
 
 if __name__ == "__main__":
     ImageSortApp().run()
+
 
