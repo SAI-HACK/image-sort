@@ -25,7 +25,7 @@ Designed to handle large image collections, this project helps you:
 - Save time 🕒  
 - Eliminate manual sorting 🖐️  
 - Keep your image libraries neat and organized 🗂️  
-
+- Open-source and free
 ---
 
 ## 🎯 Features
@@ -51,6 +51,8 @@ Designed to handle large image collections, this project helps you:
 | 🧮 **OS / sys** | File system interaction and automation |
 
 ---
+## ✅  Datasets used from [https://huggingface.co/] 
+(Public, free and working as of 28-10-2025)
 
 | Category          | Hugging Face Dataset                       |
 | ----------------- | ------------------------------------------ |
@@ -69,17 +71,13 @@ IMAGE SORT/
 
 │
 
-├── intellisort_shufflenetv2.pt # Pre-trained TorchScript model
+├── imagesort_shufflenetv2.pt 
 
-├── docrm.py # Main Python script
+├── main.py 
 
-├── input_images/ # Folder for unsorted images
+├── requirements.txt 
 
-├── sorted_images/ # Output folder (auto-generated)
-
-├── requirements.txt # Project dependencies
-
-└── README.md # This documentation
+└── README.md 
 
 
 
@@ -103,12 +101,3 @@ pip install -r requirements.txt
 
 # Run the application
 python3 main.py
-
-
-
-Loading TorchScript model from imagesort_shufflenetv2.pt ...
-✅ Processed: dog.jpg → Animals/
-✅ Processed: car.png → Vehicles/
-✅ Processed: flower.jpeg → Nature/
-🎉 Sorting Completed Successfully!
-
